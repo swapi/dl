@@ -1,0 +1,12 @@
+{
+    "pidfile" : "/place/where/you/keep/pidfile",
+    "paths" : {
+        "requests" : "/place/where/you/keep/requests",
+        "downloads" : "/place/where/you/want/downloads"
+    },
+    "downloaders" : {
+        "wget" : "wget_wrapper",
+        "youtube" : "youtube_dl_wrapper",
+        "torrent" : "torrent_wrapper"
+    }
+}
