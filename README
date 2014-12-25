@@ -1,4 +1,4 @@
-## dl - Downloader
+## dl - A Simple Downloader for Your Raspberry Pi
 
 A simple downloader which takes request in file and spawns processes 
 dependending upon the type of the request. It has plugin-ish way of
@@ -7,8 +7,8 @@ plugin which as names suggest downloaded by `wget` <sup>[1](#1)</sup>, or youtub
 are downloaded through youtube plugin which internally uses `youtube-dl` <sup>[2](#2)</sup>.
 
 ### Dependencies
-1. simplejson
-2. requests
+1. simplejson <sup>[3](#3)</sup>
+2. requests <sup>[4](#4)</sup>
 3. wget plugin - wget 
 4. youtube plugin - youtube-dl
 
@@ -72,4 +72,12 @@ periodically. Sample crontab rule is as follows:
 ### License
 Apache License
 
+---
+<sup><a href="1">1</a></sup>  `https://www.gnu.org/software/wget/`
+
+<sup><a href="2">2</a></sup>  `http://rg3.github.io/youtube-dl/`
+
+<sup><a href="3">3</a></sup>  `https://pypi.python.org/pypi/simplejson/`
+
+<sup><a href="4">4</a></sup>  `https://pypi.python.org/pypi/requests/`
 
